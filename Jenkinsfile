@@ -34,11 +34,7 @@ pipeline {
         }
       }
     }
-    stage('Deploy') {
-      steps {
-        // Deploy steps here
-      }
-    }
+  
   }
   post {
     success {
